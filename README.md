@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+### Sorting Algorithms Visualization Project Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Overview
+This project aims to showcase the real-time working of various sorting algorithms using React. By visualizing these algorithms, users can better understand how each sorting technique operates and how they compare to each other in terms of efficiency and performance.
 
-## Available Scripts
+### Project Features
+Real-time visualization of sorting algorithms.
+Support for various sorting algorithms including:
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
 
-In the project directory, you can run:
+Adjustable array size and sorting speed for experimentation and learning.
+Clear visualization of the sorting process step by step.
 
-### `npm start`
+### Technologies Used
+React: Utilized for building the user interface and managing the state of the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+JavaScript: Implemented the sorting algorithms logic.
+HTML/CSS: Styled and structured the user interface for better user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Getting Started
+To run the project locally, follow these steps:
 
-### `npm test`
+Clone the repository:
+git clone <repository-url>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Navigate to the project directory:
+cd sorting-algorithms-visualization
 
-### `npm run build`
+Install dependencies:
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the development server:
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open your web browser and go to http://localhost:3000 to view the project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Usage
+Upon loading the project, you will see an array of bars representing unsorted elements.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Select a sorting algorithm from the dropdown menu.
+Adjust the array size and sorting speed sliders if needed.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Click the "Sort" button to begin the visualization of the selected sorting algorithm.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Watch as the bars move and rearrange themselves according to the sorting algorithm.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Once sorting is complete, the bars will be displayed in sorted order.
 
 ### Deployment
+The project is deployed on Vercel and can be accessed using the following link: https://sorting-visualizer-q8po63yv5-pradeeps-projects-1bc2c173.vercel.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributing
+Contributions to the project are welcome. Feel free to submit bug reports, feature requests, or pull requests through the project's GitHub repository.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### License
+This project is licensed under the MIT License.
